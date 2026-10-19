@@ -1,0 +1,13 @@
+City,Model,MAE,RMSE,MAPE,R2
+Bengaluru,SARIMA,9.9,12.73,12.46,0.4531
+Bengaluru,Last year,8.65,10.55,10.95,0.6245
+Bengaluru,Monthly average,4.36,5.5,5.46,0.8978
+Delhi,SARIMA,26.44,30.37,14.84,0.8767
+Delhi,Last year,22.38,29.96,12.89,0.88
+Delhi,Monthly average,21.87,26.78,10.63,0.9041
+Kolkata,SARIMA,39.46,43.94,38.81,0.3009
+Kolkata,Last year,12.05,17.65,12.89,0.8872
+Kolkata,Monthly average,29.85,39.17,25.18,0.4444
+Mumbai,SARIMA,23.23,28.12,21.66,0.417
+Mumbai,Last year,38.22,46.72,41.76,-0.6095
+Mumbai,Monthly average,24.1,30.83,24.66,0.2992

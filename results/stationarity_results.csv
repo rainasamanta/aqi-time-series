@@ -1,0 +1,9 @@
+City,Series,ADF_Stat,ADF_p,ADF_Decision,KPSS_Stat,KPSS_p,KPSS_Decision
+Bengaluru,Level,-7.0315,0.0,Stationary,0.0646,>=0.10,Stationary
+Bengaluru,First difference,-5.5712,0.0,Stationary,0.0767,>=0.10,Stationary
+Delhi,Level,-2.2292,0.1958,Non-stationary,0.0298,>=0.10,Stationary
+Delhi,First difference,-4.4586,0.0002,Stationary,0.0269,>=0.10,Stationary
+Kolkata,Level,-1.4875,0.5397,Non-stationary,0.0807,>=0.10,Stationary
+Kolkata,First difference,-3.392,0.0112,Stationary,0.0716,>=0.10,Stationary
+Mumbai,Level,-1.05,0.7346,Non-stationary,0.0406,>=0.10,Stationary
+Mumbai,First difference,-7.4337,0.0,Stationary,0.0308,>=0.10,Stationary

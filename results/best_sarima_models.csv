@@ -1,0 +1,5 @@
+City,p,d,q,P,D,Q,AIC,Val_MAE_Constrained,Val_MAE_Unconstrained,Enforce
+Bengaluru,1,0,1,1,0,0,278.93,11.12,13.51,True
+Delhi,0,1,1,0,1,1,218.82,19.73,18.93,False
+Kolkata,1,1,0,1,0,0,332.96,114.99,79.83,False
+Mumbai,1,1,0,1,0,0,302.76,36.2,33.56,False

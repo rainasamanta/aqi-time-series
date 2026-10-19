@@ -1,0 +1,5 @@
+City,P_Value,Result
+Bengaluru,0.0239,Autocorrelation remains
+Delhi,0.0343,Autocorrelation remains
+Kolkata,0.0737,White noise
+Mumbai,0.2075,White noise
