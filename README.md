@@ -14,17 +14,8 @@ January 2019 - March 2025 (9,116 daily city AQI records)
 - Build SARIMA forecasting models
 - Test whether SARIMA beats simple seasonal baselines
 
-## Project Structure
-- `01_data_cleaning_and_eda.ipynb` – data cleaning and exploratory analysis
-- `02_diwali_analysis.ipynb` – Diwali impact study
-- `03_stationarity_and_model_selection.ipynb` – stationarity tests and SARIMA model selection
-- `04_sarima_forecasting.ipynb` – forecasting, baselines and residual checks
-- `data/` – raw and cleaned AQI data
-- `results/` – result tables used by the dashboard
-- `streamlit_app/` – Streamlit dashboard (`app.py` and `pages/`)
-
 ## Dashboard
-[Live Streamlit App](https://your-streamlit-app.streamlit.app)
+[Live Streamlit App](https://aqi-time-series.streamlit.app/)
 
 ## Analysis Pipeline
 1. **Data cleaning and EDA:** date parsing, duplicate and missing-date checks, CPCB AQI categories, distribution and seasonal plots
@@ -70,17 +61,3 @@ SARIMA compared with two simple baselines on the same test period (lower MAE is 
 - Kolkata's SARIMA forecast was too low in all 15 test months; the same-month-last-year baseline performed best (R² = 0.887)
 - Mumbai's January-March AQI fell 38.1% from 2023 to 2024 (181.3 to 112.2), a level shift that made both baselines over-forecast
 - With only six years of monthly data, SARIMA results were sensitive to the model selection window, and several seasonal models failed to converge
-
-## How to Run
-**Dashboard**
-```bash
-pip install -r requirements.txt
-streamlit run streamlit_app/app.py
-```
-
-**Notebooks** (run in order: 01 → 02 → 03 → 04)
-```bash
-pip install -r requirements.txt
-pip install jupyter matplotlib seaborn scikit-learn scipy pmdarima
-jupyter notebook
-```
